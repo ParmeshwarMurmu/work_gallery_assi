@@ -1,0 +1,23 @@
+.navCont{
+    /* border: 2px solid red; */
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 160px;
+    
+}
+
+.navContent{
+    display: flex;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25.2px;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.navContent > p{
+    margin-right: 32px;
+}

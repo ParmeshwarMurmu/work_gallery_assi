@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formControl{
+    width: 40%;
+    
+}
+
+.btn{
+    margin-top: 10px;
+    /* background-color: rgb(23, 121, 240); */
+}

@@ -1,0 +1,33 @@
+.head{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78.31px;
+    color: #181717;
+    width: 288px;
+}
+
+.profileCont{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 181px;
+    /* padding-left: 160px; */
+    
+}
+
+.unleash{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.44px;
+    color: #606060;
+    
+    padding-right: 50px;
+    /* border: 2px solid red; */
+}
+
+.unleashCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 599px;
+}
