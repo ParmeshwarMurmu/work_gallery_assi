@@ -11,6 +11,7 @@ import { Button, ButtonGroup } from '@chakra-ui/react'
 import { shallowEqual, useDispatch, useSelector  } from 'react-redux'
 import { additionalDetailsAction, descriptionAction, titleAction } from '../Redux/NewProjectReducer/action'
 import axios from 'axios'
+import { APP_URL } from '../Constants/constants'
 
 const AddNewProject = () => {
     const fileInput = useRef(null);
@@ -36,7 +37,7 @@ const AddNewProject = () => {
         
         console.log(formData)
 
-        axios.post('http://localhost:8000/upload/newSubmission', formData)
+        axios.post(`${APP_URL}/upload/newSubmission`, formData)
         .then((res)=>{
             console.log(res);
         })

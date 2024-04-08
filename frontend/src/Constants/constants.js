@@ -1,0 +1,1 @@
+export const APP_URL = 'https://work-gallery-assi.onrender.com'

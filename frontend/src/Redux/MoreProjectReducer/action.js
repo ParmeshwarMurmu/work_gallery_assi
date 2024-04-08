@@ -1,4 +1,5 @@
 import axios from "axios"
+import { APP_URL } from "../../Constants/constants"
 
 
 
@@ -17,7 +18,7 @@ export const moreProjectAction = (payload) => {
 
 export const getMoreProjects = () => (dispatch) => {
     // console.log("moreProject");
-    axios.get('http://localhost:8000/home/moreProjects')
+    axios.get(`${APP_URL}/home/moreProjects`)
     .then((res)=>{
         console.log(res.data);
         dispatch(moreProjectAction(res.data.moreProjects))

@@ -1,6 +1,7 @@
 import React from 'react'
 import style from '../CSS/ProjectComp.module.css'
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { APP_URL } from '../Constants/constants';
 
 
 const ProjectComp = ({title, description, additionalDetails, image}) => {
@@ -18,7 +19,7 @@ const ProjectComp = ({title, description, additionalDetails, image}) => {
       
 
       <div className={style.projectImage}>
-        <img className={style.image} src={`http://localhost:8000/uploads/${image}`} alt="" />
+        <img className={style.image} src={`${APP_URL}/uploads/${image}`} alt="" />
       </div>
 
       <div className={style.iconContainer}>
